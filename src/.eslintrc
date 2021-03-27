@@ -1,3 +1,4 @@
+/* eslint-disable*/
 {
   "extends": ["eslint:recommended", "airbnb", "prettier", "prettier/react"],
   "plugins": ["react-hooks"],
@@ -14,6 +15,7 @@
     "react/no-array-index-key": [0],
     "react/no-danger": [0],
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "no-console":[0]
   }
 }
