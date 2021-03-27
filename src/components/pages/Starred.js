@@ -2,9 +2,9 @@ import React from 'react'
 
 const Starred = () => {
   return (
-    <div>
+    <MainPageLayout>
       This is Starred
-    </div>
+    </MainPageLayout>
   )
 }
 
