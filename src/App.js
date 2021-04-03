@@ -4,7 +4,7 @@ import {Switch,Route} from 'react-router-dom';
 import { ThemeProvider } from 'styled-components'
 import Home from './components/pages/Home';
 import Starred from './components/pages/Starred';
-import Show from './pages/Show';
+import Show from './components/pages/Show';
 
 
 const theme = {

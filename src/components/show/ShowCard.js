@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import { Link } from 'react-router-dom';
 
 import { StyledShowCard } from './ShowCard.styled';
-import { Star } from '../styled';
+import { Star } from '../Styled';
 
 const ShowCard = ({ id, image, name, summary, onStarClick, isStarred }) => {
   const summaryAsText = summary

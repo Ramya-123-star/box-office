@@ -2,7 +2,7 @@
 import React, { useCallback } from 'react';
 import ShowCard from './ShowCard';
 
-import { FlexGrid } from '../styled';
+import { FlexGrid } from '../Styled';
 
 import IMAGE_NOT_FOUND from '../../images/not-found.png';
 import { useShows } from '../../misc/custom-hooks';

@@ -1,15 +1,15 @@
 import React, { useState, useCallback } from 'react';
-import MainPageLayout from '../components/MainPageLayout';
-import { apiGet } from '../misc/config';
-import ShowGrid from '../components/show/ShowGrid';
-import ActorGrid from '../components/actor/ActorGrid';
-import { useLastQuery } from '../misc/custom-hooks';
+import MainPageLayout from '../MainPageLayout';
+import { apiGet } from '../../misc/config';
+import ShowGrid from '../show/ShowGrid';
+import ActorGrid from '../actor/ActorGrid';
+import { useLastQuery } from '../../misc/custom-hooks';
 import {
   SearchInput,
   RadioInputsWrapper,
   SearchButtonWrapper,
 } from './Home.styled';
-import CustomRadio from '../components/CustomRadio';
+import CustomRadio from '../CustomRadio';
 
 const renderResults = results => {
   if (results && results.length === 0) {

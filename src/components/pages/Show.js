@@ -1,12 +1,12 @@
 /* eslint-disable no-underscore-dangle */
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import ShowMainData from '../components/show/ShowMainData';
-import Details from '../components/show/Details';
-import Seasons from '../components/show/Seasons';
-import Cast from '../components/show/Cast';
+import ShowMainData from '../show/ShowMainData';
+import Details from '../show/Details';
+import Seasons from '../show/Seasons';
+import Cast from '../show/Cast';
 import { ShowPageWrapper, InfoBlock } from './Show.styled';
-import { useShow } from '../misc/custom-hooks';
+import { useShow } from '../../misc/custom-hooks';
 
 const Show = () => {
   const { id } = useParams();
