@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const MainPageLayout = ( {children} ) => {
+const MainPageLayout = ( {children} ) => {
   return (
     <div>
       <Title title="BOX OFFICE"
@@ -12,5 +12,6 @@ export const MainPageLayout = ( {children} ) => {
    
     </div>
   
-  )
-}
+  );
+};
+export default MainPageLayout;

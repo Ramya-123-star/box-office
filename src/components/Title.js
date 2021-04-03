@@ -1,4 +1,4 @@
-import React from 'react'
+import React , { memo } from 'react'
 import { TitleWrapper } from './Title.styled';
 
 export const Title = ( title, subtitle) => {
@@ -8,5 +8,6 @@ export const Title = ( title, subtitle) => {
       <p>{subtitle}</p>
       
     </TitleWrapper>
-  )
-}
+  );
+};
+export default memo (Title);
